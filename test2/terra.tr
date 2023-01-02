@@ -1,0 +1,6 @@
+resource "google_service_account" "test_sa" {
+  project      = var.project_id
+  account_id   = "Service Account ID"
+  display_name = "Service Account"
+}
+
